@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +31,7 @@ h1,h2 {
 
 h1 {
     font-size: 40px;
-    color: #212e2c;
+    color: #312e2c;
     line-height: 100%;
     margin-bottom: 24px;
 }
@@ -39,12 +41,15 @@ p, li, th, td {
 }
 
 p {
+    color: #5f564d;
+    line-height: 150%;
     margin-bottom: 32px;
 }
  .tempo {
     background-color: #fff7fb;
     padding: 28px;
     border-radius: 12px;
+    margin-bottom: 32px;
  }
 
  .tempo h2 {
@@ -57,5 +62,32 @@ p {
  }
 
  li {
-padding-left: 10px;
+    padding-left: 10px;
+    color: #5f564d;
+    line-height: 150%;
  }
+
+    li + li  {
+        margin-top: 8px;
+    }
+
+    .tempo li::marker{
+        color: #7a284e;
+        font-size: 12px;
+    }
+
+    h2{
+        font-size: 28px;
+        color: #854632;
+        line-height: 100%;
+        margin-bottom: 24px;
+    }
+    .ingredientes li::marker {
+        font-size: 12px;
+        color: #854632;
+    }
+
+    hr {
+        border: 1px solid #e3ddd7;
+        margin-block: 32px;
+    }
